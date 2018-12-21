@@ -1,11 +1,11 @@
 # FizzBuzz
-Write a function that returns for each number between 1 to 100:
+Write a function that returns for a number between 1 to 100 :
+  -  Returns an exception if number is not 1 and 100 inclusive
   - "Fizz" instead of the number if multiple of 3
   - "Buzz" instead of the number if multiple of 5
   - "FizzBuzz" instead of the number so multiple of 3 and 5
-  - Returns the number if no multiple of 3 or 5
-  - Returns an exception if number is not 1 and 100 inclusive
-
+  -  Returns the number
+ 
 # Prerequisites
 * Install Nodejs + NPM : https://nodejs.org/en/
 * Install Framework Jest : https://jestjs.io/en/

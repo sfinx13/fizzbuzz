@@ -1,30 +1,30 @@
 const fizzBuzz = require('./fizzbuzz.js');
 
-test('4 renvoie 4',()=>{
+test('4 return 4',()=>{
 	expect(fizzBuzz(4)).toBe(4);
 });
 
-test('33 renvoie Fizz',()=>{
+test('33 return Fizz',()=>{
 	expect(fizzBuzz(33)).toBe('Fizz');
 });
 
-test('55 renvoie Buzz',()=>{
+test('55 retur Buzz',()=>{
 	expect(fizzBuzz(55)).toBe('Buzz');
 });
 
-test('90 renvoie FizzBuzz', ()=>{
+test('90 retur FizzBuzz', ()=>{
 	expect(fizzBuzz(90)).toBe('FizzBuzz');
 });
 
-test('101 renvoie error', () => {
+test('101 retur error', () => {
   expect(() =>{
   	fizzBuzz(101);
-  	}).toThrow('error');
+  	}).toThrow('Error');
 });
 
-test('-10 renvoie error', () => {
+test('-10 retur error', () => {
   expect(() =>{
   	fizzBuzz(-10);
-  	}).toThrow('error');
+  	}).toThrow('Error');
 });
 

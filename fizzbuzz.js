@@ -13,11 +13,9 @@ function fizzBuzz(number)
     if (number>100 || number <0) throw 'Error';
 
     return  0 === number%3 && 0 === number%5 ? 
-                'FizzBuzz': 
-                    ( 0 === number%3 ? 
-                        'Fizz' : ( 0 === number%5 ? 
-                                    'Buzz' : number)
-                    )
+                'FizzBuzz': ( 0 === number%3 ? 
+                   'Fizz' : ( 0 === number%5 ? 
+                   'Buzz' : number))
 }
 
 module.exports= fizzBuzz;

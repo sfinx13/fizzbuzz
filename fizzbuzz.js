@@ -1,5 +1,5 @@
 /*
-Acceptance FizzBuzz: 
+Acceptance criteria FizzBuzz: 
 Write a function that returns for a number between 1 to 100:
 
 Returns an exception if number is not 1 and 100 inclusive
